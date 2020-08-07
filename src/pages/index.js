@@ -4,7 +4,7 @@ import Header from "../components/header"
 
 export default function Home() {
   return <div style={{ color: 'red' }}>
-    <Header headerText="this is traineddog site" />
+    <Header headerText="traineddog site" />
     <p>welcome to gatsby rohit</p>
     <img src="https://source.unsplash.com/random/400x200" alt="" /> <br />
     <Link to="/about">about</Link>
