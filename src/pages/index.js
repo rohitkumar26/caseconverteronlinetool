@@ -3,7 +3,7 @@ import Header from "../components/header"
 import Strconverter from "../components/strconverter/Convertstr"
 import Layout from "../components/layout"
 import MysiteInfo from "../components/aboutsite/Aboutsite"
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 import PrivacyAboutContactLink from "../components/privacyAboutContactLink"
 import Seo from "../components/Seo"
 
