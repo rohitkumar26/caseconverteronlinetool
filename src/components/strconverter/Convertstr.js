@@ -10,7 +10,6 @@ function Convertstr() {
     const [mitalic, setitalic] = useState(false);
     const [mystrike, setmystrike] = useState(false);
     const [underline, setunderline] = useState(false);
-
     const textareahandler = (e) => {
         setmystr(e.target.value);
     }
@@ -94,7 +93,6 @@ function Convertstr() {
             <button className="button" onClick={uppercase}>UPPER CASE</button>
             <button className="button" onClick={lowercase}>lower case</button>
             <button className="button" onClick={capitalized}>Capitalize Case</button>
-            <button className="button" onClick={alternatingcase}>aLtErNaTiNg CaSe</button>
             <button className="button" onClick={joinby}>param-case</button>
             <button className="button" onClick={camelcase}>camelCase</button>
             <button className="button" onClick={snakecase}>snake_case</button>
@@ -105,6 +103,7 @@ function Convertstr() {
             <button className="button" onClick={() => setmystr(headerCase(mystr))}>Header-Case</button>
             <button className="button" onClick={() => setmystr(pascalCase(mystr))}>PascalCase</button>
             <button className="button" onClick={() => setmystr(constantCase(mystr))}>CONSTANT_CASE</button>
+            <button className="button" onClick={alternatingcase}>aLtErNaTiNg CaSe</button>
             <button className="button" onClick={boldtext}><b>Bold text</b></button>
             <button className="button" onClick={italictext}><i>italic text</i></button>
             <button className="button" onClick={strike}> <strike>strike through</strike></button>
