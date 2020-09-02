@@ -11,7 +11,7 @@ module.exports = {
     siteUrl: `https://caseconverteronlinetool.com`,
     author: "rohit kumar",
     keywords: "upper case, lower case, case converter,convert case, title case, param case, camel case, upper case to lower case, lower case to upper case",
-    socialImage: '/media/logo.png',
+    socialImage: 'static/media/logo.png',
     description: `A very handy online tool for converting text between diffrent letter cases: upper case , lower case,capitalized case,param case,camel case,snake case ,path case and more tools online.`,
   },
   plugins: [`gatsby-plugin-sass`,
