@@ -7,6 +7,7 @@ import Footer from "../components/Footer"
 import PrivacyAboutContactLink from "../components/privacyAboutContactLink"
 import Seo from "../components/Seo"
 import Addthis from "../components/sharebuttons/Addthis"
+import Paypaldonate from "../components/paypaldonatebutton/Paypaldonate"
 
 
 
@@ -20,6 +21,8 @@ export default function Home() {
           <Header headerText="Case converter online tool" />
 
           <Strconverter />
+
+          <Paypaldonate />
 
           <MysiteInfo />
           <PrivacyAboutContactLink />
