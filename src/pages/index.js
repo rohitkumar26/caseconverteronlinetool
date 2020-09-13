@@ -6,6 +6,7 @@ import MysiteInfo from "../components/aboutsite/Aboutsite"
 import Footer from "../components/Footer"
 import PrivacyAboutContactLink from "../components/privacyAboutContactLink"
 import Seo from "../components/Seo"
+import Addthis from "../components/sharebuttons/Addthis"
 
 
 
@@ -17,10 +18,13 @@ export default function Home() {
         <div className="column is-three-quarters">
 
           <Header headerText="Case converter online tool" />
+
           <Strconverter />
+
           <MysiteInfo />
           <PrivacyAboutContactLink />
           <Footer />
+          <Addthis />
         </div>
       </div>
 

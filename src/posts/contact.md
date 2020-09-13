@@ -9,16 +9,16 @@ slug: "contact-us"
 <input type="hidden" name="form-name" value="caseconverteronlinetool" />
   <p>
     <label class="label">Your Name: </label> 
-    <input  class="input" type="text" name="name" />  
+    <input  class="input" type="text" name="name" required />  
   </p>
   <p>
     <label class="label">Your Email: </label>
-    <input class="input"type="email" name="email" />
+    <input class="input"type="email" name="email" required />
   </p>
  
   <p>
     <label class="label">Message: </label>
-    <textarea  class="textarea" name="message"></textarea>
+    <textarea  class="textarea" name="message" required ></textarea>
   </p>
   <p>
     <button class="button is-primary mb-2 mt-2" type="submit">Send</button>
